@@ -26,20 +26,6 @@ section, .intro {
     margin: 16px 2% 16px;
 }
 
-#homepage {
-    margin: 16px;
-}
-
-#homepage p {
-    padding: 0;
-}
-
-.table_of_contents {
-    background-color: #DCF3F9;
-    width: max-content;
-    padding-bottom: 8px;
-}
-
 p {
     padding-left: 8px;
     margin: 8px;
