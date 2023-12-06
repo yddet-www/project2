@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <link href="./styles/stylesheet.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Usability Assessment and Proposal</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Usability Report: Craigslist Website</h1>
+    </div>
+
+    <section>
+        <h2>Background</h2>
+
+        <p>
+            Craigslist is an online platform where users are able to post and browse through ads in a wide range of
+            categories, such as jobs, housing, services, items for sale, community, and more. Craigslist started in 1995
+            and since then it has expanded to cover 70 countries. Despite its longevity, Craigslist suffers from several
+            design flaws affecting usability and user satisfaction, and its appearance being the most pronounced among
+            them all. Our research aims to reveal specific areas where the user experience suffers and offer ways to
+            mitigate it.
+        </p>
+    </section>
+
+    <section>
+        <h2>Usability audit protocols</h2>
+
+        <p>
+            For our usability audit process, we first had participants take a survey of 5 questions about the site's UI,
+            ease of use, how the UI affects navigation and whether the UI conveys the site's purpose well. Then, we gave
+            participants three tasks to complete, with an easy task and two slightly more difficult tasks to complete.
+            We first tasked the user to navigate into the “free stuff” section on their local Craigslist website. This
+            first task is meant to test the user's ability to navigate the website and locate specific sections. Then,
+            we task the user to search for a used bicycle in the “for sale” section, with the listings filtered by a
+            price range of their choice and sorted by the date posted. This task tests the user's ability to use the
+            search and filter functions. We finally tasked the user to find an apartment listing in the “apartments/
+            housing for rent” section. The apartment needs to be located in Chicago, with washer and drying within the
+            unit or within the building, and priced under $1500. This final task tests the user's ability to use the
+            search function, applying filters, and navigating through the listings. We took notes on the time each task
+            took the participant, as well as specific difficulties they encountered during the process.
+        </p>
+    </section>
+
+    <section>
+        <h2>Results</h2>
+
+        <p>
+            The survey results prior to the tasking process revealed that users were skeptical with the look and feel of
+            the website. On average, our participants initially thought that the website seemed difficult to navigate
+            and digest the information presented to them. Once we presented them with the different tasks, we noticed
+            that a common point of complaint that users have had to do with the homepage. Users that are unfamiliar with
+            the website struggled navigating through the various linked sections. Another point of confusion was sorting
+            through the listings. One of the tasks asked the user to sort their results by the date they are posted,
+            however multiple participants encountered failed to find the drop-down menu to do so. Moreover, filtering
+            through the results from their search also posed as a challenge for our participants due to the long list of
+            options that they need to sieve through to find the appropriate filter for the task. Though, the post-task
+            survey results showed an overall change in their perception of the website. Our participants on average were
+            neutral on the content presentation of the website and its ease of navigation. This leads us to believe that
+            there are several ways we can improve the overall experience of users.
+        </p>
+    </section>
+
+    <section>
+        <h2>Discussion</h2>
+
+        <p>
+            Utilizing the information we gathered from conducting the usability audit, we have identified the following
+            items as problems with Craigslist's user interface:
+        </p>
+
+        <ol>
+            <li>
+                <strong>Refurbishing the homepage:</strong>
+                <p>
+                    The current design of Craigslist's is already subject to improvements. As it is, many users think
+                    that the website looks dated and cluttered, especially for newer users. This can be attributed to
+                    the fact that the different sections appear as hyperlinks with their default color, as well as the
+                    sheer number of links being displayed all at once. A clearer visual hierarchy is needed in order to
+                    give the website its proper presentation. One method to achieve this is to give the headers a more
+                    distinct look than the body text by using a darker shade of the color. This will also diversify the
+                    current monochrome color palette of the website whilst sticking with the well-known theme users are
+                    accustomed to.
+                </p>
+
+                <p>
+                    There are also redundancies on the right sidebar that can be removed to declutter the homepage.
+                </p>
+
+                <figure>
+                    <img src="./illustrations/fig1.png"
+                        alt="Insert description">
+                    <figcaption>Bottom text.</figcaption>
+                </figure>
+
+                <p>
+                    The empty space provided by removing the redundancies can be used to improve the search bar
+                    presentation, as well as easing users into their targeted sections. From our research, inexperienced
+                    users typically opt to navigate through the search bar, and adding a dropdown menu with popular
+                    sections below it can guide them to finding the listing of the targeted categories.
+                </p>
+
+                <figure>
+                    <img src="./illustrations/fig2.png"
+                        alt="Insert description">
+                    <figcaption>Bottom text.</figcaption>
+                </figure>
+
+                <p>
+                    The header of the homepage is problematic as well, since its purpose is to inform the user of their
+                    currently selected location for browsing. At a glance, users may not realize that the text is
+                    actually a link that allows them to change their location due to the coloring.
+                </p>
+
+                <figure>
+                    <img src="./illustrations/fig3.png"
+                        alt="Insert description">
+                    <figcaption>Bottom text.</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="./illustrations/fig4.png"
+                        alt="Insert description">
+                    <figcaption>Bottom text.</figcaption>
+                </figure>
+
+                <p>
+                    We can solve this issue by adding a pretext “current location:” followed by their currently selected
+                    location. This also eliminates the use of the right sidebar, since the list of locations is all
+                    contained within the window of the location link, further decluttering the homepage.
+                </p>
+
+                <figure>
+                    <img src="./illustrations/fig5.png"
+                        alt="Insert description">
+                    <figcaption>Bottom text.</figcaption>
+                </figure>
+            </li>
+
+            <li>
+                <strong>Refurbishing the results page:</strong>
+                <p>
+                    Similar to the homepage, the design of Craigslist's result page is subject to improvement. The
+                    visual hierarchy of the page lacks organization to its structure. Additionally, the results page
+                    contains redundant elements to define your search result.
+                </p>
+
+                <figure>
+                    <img src="./illustrations/fig6.png"
+                        alt="Insert description">
+                    <figcaption>Bottom text.</figcaption>
+                </figure>
+
+                <p>
+                    The contents of the page that will be discussed are boxed/underlined and labeled by letter.
+                </p>
+
+                <p>
+                    As shown in figure 6, the results page contains two separate sections that have to do with location.
+                    The first section is at A, the top of the page, where Chicago and All Chicago are selected, and can
+                    be changed due to the drop-down menu. The second section is at C, where the user can select a mile
+                    radius from a certain location. While it is important to specify the location, as well as the
+                    precise location of your search, it can be confusing to the user if they want to refine their
+                    search. A solution to this would be to make the information listed in items A as simple text, so it
+                    is clear to the user that they should refine their search at C.
+                </p>
+
+                <p>
+                    There are redundant elements on the page to create a more refined search. In item B, you are able to
+                    filter results by price, condition, and sold by. In item D, you are able to filter your result by
+                    price. In item F, you are able to use the drop-down menu to filter your result by the condition of
+                    the item. The elements in items D and F serve the same purpose as the elements in item B. There are
+                    two potential solutions to this problem. The first solution would be to remove the elements in item
+                    B and keep the elements in items D and F. The second solution would be to remove the elements in
+                    items D and F, keeping the elements in item B.
+                </p>
+
+                <p>
+                    Additionally, the element in item E is irrelevant to the sidebar if it is not related to vehicles.
+                    The element in item E asks for the user to type in the desired make and model for their search. In
+                    the context of any search besides vehicles, this element in the sidebar is useless and irrelevant.
+                    The solution to this problem would be to remove the element E altogether. If it is necessary to the
+                    vehicles section of the search result, then it should exclusively belong to the vehicle section of
+                    the website.
+                </p>
+            </li>
+
+            <li>
+                <strong>Make filter UI act uniformly:</strong>
+                <p>
+                    For our third task, users had to search for apartments in a certain price range and with the
+                    "Washer/dryer in unit" filter enabled. When sorting by cost, the site automatically refreshes
+                    results. However, checking the "Washer/dryer in unit" filter does not immediately refresh results.
+                    Instead, you have to also select an apply button. The way it is implemented resulted in confusion
+                    for our usability audit's participants, because the user must scroll to the end of the sidebar to
+                    see the apply button.
+                </p>
+
+                <figure>
+                    <img src="./illustrations/fig7.png"
+                        alt="Insert description">
+                    <figcaption>Bottom text.</figcaption>
+                </figure>
+            </li>
+
+            <li>
+                <strong>Adding an internal messaging/chat platform:</strong>
+                <p>
+                    Craigslist has all the basic components of what makes a buying/selling platform functional, but it
+                    lacks ease of communication between buyers and sellers. On any posting within Craigslist, there's a
+                    drop-down option to "reply" as an email or by phone number, given the seller is comfortable sharing
+                    that sensitive information. However, the option of replying by email is, for the most part, severely
+                    outdated.
+                </p>
+
+                <figure>
+                    <img src="./illustrations/fig8.png"
+                        alt="Insert description">
+                    <figcaption>Bottom text.</figcaption>
+                </figure>
+
+                <p>
+                    This is a typical post you could find in the apartments/housing listing section. A typical generic
+                    format of Craiglist. Within the "reply" button, you can see it drops down to email, call or text:
+                </p>
+
+                <figure>
+                    <img src="./illustrations/fig9.png"
+                        alt="Insert description">
+                    <figcaption>Bottom text.</figcaption>
+                </figure>
+
+                <p>
+                    As displayed in the email drop down feature, these options in replying seem outdated. Although these
+                    email platforms and replying options are still completely viable, it takes you out of Craigslist
+                    onto the email website, has you login, compose a new email, etc. On top of that, the email given is
+                    an encrypted Craigslist email assigned to hide the seller's personal email by giving a randomized
+                    combination of letters and numbers. This encryption also works for the buyer when they email the
+                    seller. There are several steps related to the email function.
+                </p>
+
+                <figure>
+                    <img src="./illustrations/fig10.png"
+                        alt="Insert description">
+                    <figcaption>Bottom text.</figcaption>
+                </figure>
+
+                <p>
+                    The call and text options are also present, but usually only display their number. This is up to the
+                    seller whether they want their number out in the public or not. Plus, having your number out means
+                    anyone who comes across the post can view your phone number, even if they were interested in the
+                    post or not. A great way to remove this potential privacy concern is to add an internal messaging
+                    platform, so users do not have to post their number for communication. Should any genuine interested
+                    buyer exchange a conversation on a potential internal messaging platform, the seller could then
+                    share their number if need be.
+                </p>
+
+                <figure>
+                    <img src="./illustrations/fig11.png"
+                        alt="Insert description">
+                    <figcaption>Bottom text.</figcaption>
+                </figure>
+
+                <p>
+                    A Q&A section on the posting could be helpful as well. The seller chooses which question to ask if
+                    legitimate, and will be open to the public to see, if there was anything that was missed in the
+                    description of the post.
+                </p>
+
+                <figure>
+                    <img src="./illustrations/fig12.png"
+                        alt="Insert description">
+                    <figcaption>Bottom text.</figcaption>
+                </figure>
+
+                <p>
+                    Adding an Inbox or Messages section next to the top right section near "post" and "account" and
+                    removing the "reply" dropdown entirely would be ideal. Taking the messages section into a different
+                    page should be easier than clicking on reply and going out on different email platforms for contact.
+                </p>
+            </li>
+
+        </ol>
+    </section>
+</body>
+
+</html>
