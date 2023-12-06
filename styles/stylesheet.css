@@ -1,0 +1,123 @@
+html {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    position: relative;
+    background-color: #E8E9F3;
+    width: 100%;
+    display: inline-flex;
+}
+
+.header a {
+    position: absolute;
+    right: 0;
+    top: 27%;
+    padding: 8px 16px 9px;
+}
+
+section, .intro {
+    margin: 16px 2% 16px;
+}
+
+#homepage {
+    margin: 16px;
+}
+
+#homepage p {
+    padding: 0;
+}
+
+.table_of_contents {
+    background-color: #DCF3F9;
+    width: max-content;
+    padding-bottom: 8px;
+}
+
+p {
+    padding-left: 8px;
+    margin: 8px;
+}
+
+ul {
+    margin-top: 0;
+}
+
+aside {
+    color: #272635;
+    background-color: #DCF3F9;
+    float: right;
+    width: 45%;
+    margin-left: 5%;
+    margin-bottom: 16px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+
+aside p {
+    margin: 0;
+    padding: 0;
+}
+
+aside h3 {
+    margin: 0 0 4px;
+    padding: 0;
+    background: none;
+}
+
+figure {
+    background-color: #F5F5F5;
+    padding: 16px;
+    color: #272635;
+    width: max-content;
+    border: 8px outset #272635;
+}
+
+h1 {
+    margin: 0;
+    color: #272635;
+    padding: 16px;
+}
+
+h2, h3 {
+    color: #272635;
+    background-color: #E8E9F3;
+    padding: 16px;
+    width: max-content;
+    margin-bottom: 8px;
+}
+
+h4 {
+    margin-bottom: 0;
+}
+
+#navbar {
+    width: 100%;
+    overflow: auto;
+}
+
+#navbar a {
+    background-color: #272635;
+    color:#F5F5F5;
+    border-radius: 4px;
+    float: left;
+    margin: 8px;
+    padding: 16px 8px 16px;
+    width: 9%;
+    text-align: center;
+    font-size: 0.8vw;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #5D3FD3;
+}
